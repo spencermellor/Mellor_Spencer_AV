@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+
+html {
+  background-color: black;
+}
+
+
+/* Video and video player */
+#videoplayer {
+  width: 100%;
+  height: 100vh;
+}
+
+#videoplayer video {
+  width: 100%;
+  height: 100%;
+}
+
+/*  Controls */
+.controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.controls * {
+  margin: 3px;
+  background-color:rgb(252, 240, 255);
+  border: none;
+  color: black;
+  border-radius: 5px;
+}
+
+/* Sliders */
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 60%;
+  height: 4px;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.slider-small {
+  background-color: black;
+}
+
+/* Custom audio text in middle of screen */
+#audio {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: none;
+}
