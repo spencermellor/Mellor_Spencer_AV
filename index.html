@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="videoplayer">
+    <!-- Can play either video or audio -->
+
+    <!-- possible srcs : CHOOOSE ONLY ONE TO UNCOMMENT -->
+        <video src="media/batman.mp4"></video>
+        <!-- <video src="media/cats_in_the_cradle.mp3"></video> -->
+        <!-- <video src="media/full_house.mp4"></video> -->
+
+    <div class="controls">
+      <button id="play-pause">Play</button>
+      <input type="range" min="1" max="100" value="1" class="slider" id="duration">
+      <div>
+        <label for="volume">Volume:</label>
+        <input type="range" min="1" max="100" value="100" class="slider slider-small" id="volume">
+      </div>
+      <button id="fullscreen">FullScreen</button>
+      <button id="speed">Speed(1x)</button>
+    </div>
+
+    <!--  if audio show them it is an audio file -->
+    <h1 id="audio">Audio File (No Preview)...</h1>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
