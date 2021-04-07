@@ -12,9 +12,9 @@
     <!-- Can play either video or audio -->
 
     <!-- possible srcs : CHOOOSE ONLY ONE TO UNCOMMENT -->
-        <video src="media/batman.mp4"></video>
-        <!-- <video src="media/cats_in_the_cradle.mp3"></video> -->
-        <!-- <video src="media/full_house.mp4"></video> -->
+        <!-- <video src="media/batman.mp4" title="batman"></video> -->
+        <video src="media/cats_in_the_cradle.mp3" title="cats_in_the_cradle"></video>
+        <!-- <video src="media/full_house.mp4" title="full_house"></video> -->
 
     <div class="controls">
       <button id="play-pause">Play</button>
@@ -25,10 +25,16 @@
       </div>
       <button id="fullscreen">FullScreen</button>
       <button id="speed">Speed(1x)</button>
+      <button id="transcript">Transcript</button>
     </div>
 
     <!--  if audio show them it is an audio file -->
     <h1 id="audio">Audio File (No Preview)...</h1>
+
+    <div id="transcriptDisplay" style="display: none;">
+      <h2>Transcript:</h2>
+      <p></p>
+    </div>
 
   </div>
   <script src="main.js"></script>
