@@ -2,7 +2,7 @@
 
 ### A Research Project for Authoring Level 4
 
-This application is a functional media / audio player with the ability to play and pause, change the speed / volume, and toggle full screen mode.
+This application is a functional media / audio player with the ability to play and pause, change the speed / volume, toggle full screen mode, and toggle the transcirpt for the media source.
 
 ### Reason For Application
 
